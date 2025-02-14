@@ -7,7 +7,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.send('<h1>About page<h1><p>Its me!</p>');
+    res.send('<h1>About page</h1><p>Its me!</p>');
+});
+
+app.get('/contact', (req, res) => {
+    res.send('<h1>Contact page</h1><p>email: nailatalib@berkeley.edu</p>');
 });
 
 app.listen(port, () => {
