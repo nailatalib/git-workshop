@@ -12,6 +12,7 @@ app.get('/about', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.send('<h1>Contact page</h1><p>email: nailatalib@berkeley.edu</p>');
+    console.log('hello');
 });
 
 app.listen(port, () => {
